@@ -1,0 +1,77 @@
+What is Polymorphism? 
+Explain garbage collection.
+What is an immutable object?
+How is this() and super() used with constructors?
+What are Access Specifiers available in Java?
+What is Constructor?
+What are the List interface and its main implementation?
+Explain the user-defined Exceptions.
+Describe the life cycle of the thread.
+What is an Applets?
+What is the Set interface?
+What is a HashSet and TreeSet?
+How do you decide when to use HashMap and when to use TreeMap and what is the difference between these two?
+What is the Comparable interface?
+When should I use abstract classes and when should I use interfaces?
+Explain the Polymorphism principle.
+What are the difference between throw and throws?
+What is the difference between preemptive scheduling and time slicing?
+Explain traversing through a collector using Iterator.
+What are the principle concepts of OOPS?
+What are the basic features of java?
+How Java becomes object-oriented?
+How java becomes robust?
+How does a Java program compile?
+What is 'public static void main ( String args[ ] ) ' signifies?
+What 'System.out.println()' signifies?
+What is a variable in Java program?
+What is JVM, JDK, JRE?
+What is bytecode?
+What is Java applet?
+What is set and how its working?
+How HashMap is working?
+What is the difference between Comparator and Comparable?
+List vs Array and internal working 
+Linked List vs Array List and its difference 
+HashTable vs HashMap
+Can we Override the main method? how?
+Can a try block without catch?
+In which situation finally block will not execute 
+final vs finally vs finalize
+What is static keyword and block and where we should use
+Type of typeCasting? Can we typecast a boolean to char 
+Default value of int, string, double,..,... (all datatypes) ?
+In which scenario we should use array and ArrayList?  Why not should use ArrayList over array
+what is String and substring() how internally it is working? In which case we should use a character array over the String
+Encapsulation vs Abstraction 
+If we can access private members using the setter and getter method why we should make members private?
+How to Make a Class Immutable?
+How to create multi-threaded Applications?
+How to handle the situation when the thread crashes (auto recovery feature) ?
+Can we have multiple catch blocks? can we have a nested try-catch block?
+When to use interface and when abstract class? Can we define a method in the interface?
+Java 8 feature 
+What is stream API? Find maximum even(1,2,3,4,5,6) elements using steam api. 
+What is a functional interface and what is the use of a functional interface? 
+What is Optional in Java 8?
+How to ensure that a data packet is received when sent by rest API?
+What is serialization or serializable?
+Sort a class based  on age if age is the same then name if the name is also the same then based on salary 
+Collection 
+ArrayList vs LinkedList
+TreeeSet vs TreeMap
+Hashmap vs HashSet
+HashMap internal working
+Heap vs Stack
+Interface vs abstract
+Serialization vs deserialization
+Java 8 features 
+Lambda 
+Stream
+Optional
+Date
+I/O
+interface
+JVM Architecture
+Implement Thread Pool
+Implement your own HashMap
