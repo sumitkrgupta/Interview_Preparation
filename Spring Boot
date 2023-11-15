@@ -1,0 +1,40 @@
+Object life cycle 
+IOC Container
+Bean life cycle? and Scope of Bean?
+What is annotation in Java and how it is internally working? Where is the source code of the annotation 
+What are the HTTP methods? and what is the difference between them? 
+Can we use post request to get the value instead of get?
+What is idempotent?
+what is @requestMapping 
+what is @restController
+what is @controller 
+what is @responseBody
+what is @bean, @value
+what is @confugration, @autoconfiguration
+what is @autowired: (Method level)
+what is @preconstruct and @predistroy ?
+        this annotation is applied to the fields, setter methods, and constructors
+What is the scope of a bean?
+Can we register two beans? What error will get when two beans are registered? How to handle two bean 
+How to send a pdf to the server?
+How to send the user name password?
+How to use the header?
+How to connect with DB using hibernate?
+Explain MVC. Can we write repository(DB) code in the controller?
+If we send data from one microservices to another microservices and in the mid we lost data how to recover that and what will be your strategy?
+MVC
+ALL API Annotation
+Dependency Injection
+REST Controller vs @Controller  vs Request mapping
+Get vs patch 
+Get vs put
+Get vs post
+Scope Of Bean
+Explain Rest API
+Maven vs Gradle
+Bean life cycle
+@propertySource vs @value annotation
+@Qualifier vs @primary Annotation
+@SpringBootApplication Annotation
+Intercepter in Spring Boot 
+Spring vs SpringBoot
