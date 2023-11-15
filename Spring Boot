@@ -38,3 +38,13 @@ Bean life cycle
 @SpringBootApplication Annotation
 Intercepter in Spring Boot 
 Spring vs SpringBoot
+
+Memory Database i.e H2
+How to Generate Spring Boot Project
+How a Spring bean do you make a class eligible for autowiring
+Maven vs Gradel
+How Spring boot project generate 
+Desgin Pattern
+Spring Boot Build
+API Flow with annotation
+How Spring boot started internally
