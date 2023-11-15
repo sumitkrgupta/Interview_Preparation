@@ -75,3 +75,5 @@ interface
 JVM Architecture
 Implement Thread Pool
 Implement your own HashMap
+Comparator vs Cpmparabale
+Internal working of Hashmap
