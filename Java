@@ -87,5 +87,5 @@ what is consumer?
 what are fetures in java 8
 what are method in stream
 what are method in Rest API
-
+what are built in functinal interface?
 
