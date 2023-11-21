@@ -89,3 +89,22 @@ what are method in stream
 what are method in Rest API
 what are built in functinal interface?
 
+Incedo Interview
+1. Coding Interview-> 1. Java 8 based coding filter 2.Sort array number on the basis of sum of digit of it 
+2. Opps
+3. Interface vs Abstract class
+4. Static variable
+5. How to create Custome functional Interface and how to impliment it
+6. Interface in Collections 
+7. Collections vs Interface
+8. Throw vs Throws
+9. How to create custome exceptions 
+10. Immutable vs muttable
+11. StringBuffer vs StringBuilder
+12. Polymorphism
+11. Checked exception vs unchecked unexception
+12. what is functinal Interface
+13. forEach method
+14. filter list with whose name start with S by using Java 8
+15. 
+
