@@ -57,3 +57,8 @@ How Spring boot started internally
 4. @SpringBootApplication
 5. How Spring boot got Started
 6. Spring vs Spring Boot
+7. REST API Methods
+8. @Request Body
+9. @Response Body
+10. @RequestMapping
+11. @RequestPram vs @PathVariable
