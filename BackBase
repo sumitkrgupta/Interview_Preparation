@@ -1,1 +1,21 @@
+1.Given a list of words and another string 'Word'. find all string in list which have the same characters as string word.
+2.Difference between stackOverflow and outOfMemory Exception
+3.What is marker Interface
+4.Is Respository in Spring data JPA is a marker interface
+5.what are intermediate and terminal operations in java 8 and give example of both
+6.How to write microservice from scratch in Spring boot
+7.Getting a application context exception. what should I do?
+8.@Primary vs @Qualifier
+9.Frequency of each character in a given String.
+10.Group by department by employee with max salary in each department
+11.What is Stream API and how does it work?
+12.Get the name of the employees who are living in hyderabad using stream api and with out stream API
+13.@Property source
+14.Oops Concept
+15.Scope of bean
+16.Singleton vs prototype
+17.Consumer screen.
+
+
+
 
