@@ -17,5 +17,38 @@
 17.Consumer screen.
 
 
+***** Sumit****
+1.What is Stream API in Java 8
+2.Intermediate operations in stream
+3.Terminal operations in stream
+4.What is funtional interface in Java
+5.We have a list of employees. Group the employees by age using Streams.
+6.I want to create a HashMap as the result with age as the key and count as the value.
+7.What is immutable class in Java
+8.What is the difference between set and list
+9.What is the diffence between LinkedList and ArrayList in Java
+10.What is the difference between == and equals()
+11.How to run a function in separate thread and I want to return a result too in java
+12.What is the difference between Future and CompletableFuture
+13.How to use Non-blocking Operations in CompletableFuture
+14.synchronized keyword in java
+15.How to create REST API in spring boot
+16.How to handle exceptions in Spring boot
+17.Can we create two beans with same name in spring boot
+18.What is @Conditional annoatation in spring boot
+19.How to change the runtime parameters of a spring boot application without using application.yml file
+20.What is the differnece between Transaction Propagation and Transaction Isolation
+21.How to define one to many mapping in Hibernate
+22.Unique ID generation in hibernate
+23.How service discovery work and called in Java
+24.How load balancer is implemented in Spring Boot applications
+25.How to craete docker image using Maven
+26.How to check for exception in Kibana console
+27.Service identifier in Spring Boot
+28.APIGateway vs Load Balancer
+29.Project
+30.How Request flow from Microservices
+31. What is APIGatway
+
 
 
