@@ -62,3 +62,11 @@ How Spring boot started internally
 9. @Response Body
 10. @RequestMapping
 11. @RequestPram vs @PathVariable
+
+
+1.@RequestMapping vs @Get
+2.Default port
+3.@Autowired
+4.@AutoConfiguration
+5.Spring Vs Spring Boot
+6.DB Configuration
