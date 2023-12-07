@@ -47,7 +47,7 @@
 27.Service identifier in Spring Boot
 28.APIGateway vs Load Balancer
 29.Project
-30.How Request flow from Microservices
+30.How Request flow from APIGateway to Microservices 
 31. What is APIGatway
 
 
