@@ -51,4 +51,29 @@
 31. What is APIGatway
 
 
+*****************Sup*****************
+1.What is the difference between intermediate and terminal operation
+2.What is lambda expression and can it be written anywhere or in specific places only?
+3.Which interface lambda expression implements
+4.What is the use of join() method in Thread class in Java?
+5.What is the difference of sleep() and wait() in java threads
+6.WHat is the differnce between HashTable and concurrent hashmap?
+7.How many default segements are there in concurrent hashmap?
+8.What is immutability of in Java
+9.How to create a Immutable class which has a mutable member class?
+10.Singleton class in Java?
+11.In spring, suppose I have a Java interface. And there are two implementation of the same interface. I created bean for both the interface.
+12.@Async annotation in java?
+13.What is Future in Java
+14.In my spring boot application I need to write business logic that needs to be execute when application starts. Where should I write it.
+15.What are the scopes of spring bean
+16.How to inject a prototype bean inside a singleton bean?
+17.In spring security, how you authenticate a user?
+18.What is kafka and how it works?
+19.For one topic how many consumers are possible in kafka
+20.What is the difference between JDBC template and Hibernate?
+21.How to trace a request in microserivces?
+22.
+
+
 
