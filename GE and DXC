@@ -1,1 +1,38 @@
+1.what is Immutability in Java and how to create it.
+2.What are the class loaders we have in java
+3.What is the hierarchy to load to classes into our application?
+4.What is the difference between ArrayList and LinkedList in Java?
+5.What is the difference between list and set?
+6.Internal implimenatation of HashSet in Java?
+7.What are failFast and failSafe iterators in Java?
+8.What is the diffence between concurrent hashmap and synchronysied hashmap?
+9.What is clonable interface?
+10.Difference between shallow clone and deep clone?
+11.Executor framework in Java?
+12.What is the difference between runnable and callable interface. Give the answer as table
+13.I am creating a thread t1 and calling t1.start(). One the next line I repeated the same line by mistake. What will be the output?
+14.Why wait(), notfiyAll() are in object class and not in the thread class?
+15.What is functional interface in Java?
+16.I have functional interfaces F1 and F2. Can F1 extend F2?
+17.What are intermediate and terminal operators in Java Stream API?
+18.I have a list of numbers. Can you find 3 min numbers and 3 max numbers using Java 8?
+19.Write a java program to find the sum of all digits in Java 8?
+20.How to make two microservices communicate with each other?
+21.List the annotations used in Spring Boot Application?
+22.What will happen if I interchange the @service and @Repository annoatations?
+23.How the Bean Injection ambiguity is resolved?
 
+
+
+************* GE *****************
+1.How to create a new API in Spring Boot?
+2.Can you outline one with service, dao, entity too.
+3.Transactions in Hibernate
+4.When to use treemaps in java?
+5.How to perform the below operation on the employeeAddressMap:
+6.How can we retrieve entries from this employeeAddressMap using a particulat employee class?
+7.Can we override the equals() without using the Objects.equals()?
+8.What would be the best data structure to save employee records if I need to retrieve top 5 and bottom 5 salaried employees
+9.Can we use  MinHeap and MaxHeap
+10.If priorityQueue is not available?
+11.
