@@ -1,0 +1,348 @@
+# Sumit's Interviews (19-01-2024)
+
+## Interview 01
+
+Java: 4/5
+Spring Boot: 3.5/5
+
+There are 4 sout statements
+Answer for each
+
+Singleton Design Pattern
+
+Singleton class - only one object can be created for that class
+
+Circuit breaker will disconnect the other service.
+
+Service discovery:
+
+- Service registry
+- Service registration
+- Service to service communication
+
+e.g. Eureka
+
+MS A
+MS B
+
+/api/ms-a/records() -> data 01
+/api/ms-b/records(data 01) -> data 02
+
+We can use gateway as the orchestrator for making the calls in sequence.
+
+We can establish a service to service communication and call ms-b from ms-a.
+
+ms-a -> producer
+ms-b -> consumer
+
+What data about employee?
+
+For department, can I display the count of students?
+
+## Interview 02 (Telatra)
+
+- Telstra Corporate Centre is in Melbourne.
+
+Type Public
+Traded as
+ASX: TLS
+S&P/ASX 200 component
+Industry Telecommunications
+Founded 1 July 1975; 48 years ago[1]
+Headquarters Telstra Corporate Centre
+Melbourne, Australia
+Area served Australia
+Worldwide (selected products)
+Key people Vicki Brady (CEO)
+Michael Ackland (CFO)
+John Mullen (Chairman)
+Products Fixed line and mobile telephony, Internet, data services, network services, and pay TV
+
+Telstra is Australia’s leading telecommunications and technology company1. It offers a full range of communications services and competes in all telecommunications markets. In Australia, Telstra provides 18.8 million retail mobile services, 3.8 million retail fixed bundles and standalone data services, and 960,000 retail fixed standalone voice services1. Telstra is the only communications company in Australia that can provide customers with a truly integrated telecommunications experience across fixed line, mobiles, broadband, information.
+
+For source code management, we used Gerrit first. Then we migrated to GitTea.
+For deployments, Jenkins pipelines where used to deploy to AWS using K8s.
+
+Loan management system
+Personal loan
+
+(Question)
+
+- Pick any of the project and walk me through the high level overview of the application architecture. What are the main components of the system.
+- How work was assigned to you?
+
+(Answer)
+
+- We used Agile methodology for development.
+- Larger tasks are divided into smaller tasks and assigned to me by team lead.
+- KT and documentation are provided separately.
+- YT stories are assigned.
+- We go through the assigned story, clear the doubts for higher ups.
+- Daily standup.
+
+India Post Payments Banks
+
+Multi-lender project
+Flexible loan rates
+
+LSP - Lender Service Provider
+External API Gateway - For lender side
+Jocata Center? (Central) - This was used for establishing audit trails
+LSP Bridge - Bridge between our LSP and lender APIs
+Event processor
+API Gateway - UI side
+
+Since we were interacting with FIs, there are certain guidelines established by them, that needs to be followed when interacting with their APIs.
+They used REST APIs with encrypted request and responses.
+
+There are 2 API Gateways in our project
+
+- Our API gateway is the first touch point for our UI.
+- The external API gateway is the single point of interaction, to connecting to lender APIs. There are multiple lenders they can sing up for the platform.
+
+Asynchronous calls or events?
+
+For class properties, are automatically initialized to a default value.
+Primitive -> 0
+Reference -> null
+
+SpringCloudGateway
+
+Directly worked on spring boot, not on spring core.
+
+Independently deployable and scalable
+
+JENKINS
+DOCKER
+AWS - IaaS - We used EC2 instances
+
+Separate team, we just have to run the pipelines as required.
+
+You can unshare your screen
+
+## Interview 03 (Epram)
+
+- Brief introduction
+
+### Question 02
+
+What is the latest Java version that you worked on?
+
+### Question 03
+
+Do you have any experience on microservices?
+
+### Technical Question 02:
+
+```java
+import java.util
+```
+
+Find the sum of quantities in the list, where the key and value are not `null`.
+
+```java
+long sumOfQuantities = items.stream()
+    .filter(item -> item.getKey() != null && item.getValue() != null)
+    .mapToLong(Item::getValue)
+    .sum();
+```
+
+```java
+Predicate<Item> isNotNull = item -> item.getKey() != null && item.getValue() != null;
+```
+
+- What is the input for the filter function?
+- What is the predicate?
+- Can you give the implementation of the predicate and use it in the code that you have written?
+
+### Technical Question 03
+
+```java
+Map<String, Long> sumOfQuantitiesByFruit = items.stream()
+    .filter(item -> item.getKey() != null && item.getValue() != null)
+    .collect(Collectors.groupingBy(Item::getKey, Collectors.summingLong(Item::getValue)));
+```
+
+## Interview View 04 (Monjin)
+
+- What is your total years of experience?
+- Can you tell me about yourself?
+
+Change "solid foundation" to "good grasp"
+
+Microservices:
+
+- Do you have any experience in microservices?
+- What are the design patterns of a microservices?
+- What is SAGA design pattern?
+- What is circuit breaker?
+
+Wrong answer for SAGA design pattern.
+
+Core Java:
+
+- What are the design patterns in Java?
+- What is the singleton pattern?
+- What is the use of `getInstance()` method?
+- Can we overload the `main()`?
+- What is `ConcurrentHashMap`?
+
+On `ConcurrentHashMap` multiple `null` values are allowed and a single `null` key is allowed.
+
+- What is the difference between `transient` and `volatile` keywords?
+- How would you design a thread-safe singleton class?
+- How would you handle a situation where the a
+
+- Have you worked with caching with SpringBoot?
+
+- How caching improves the performance of the SpringBoot application and what are the things that needs to be considered before enabling caching?
+- Where did you apply the SpringBoot actuator in
+- How did you handle exceptions in SpringBoot?
+
+
+
+
+
+
+
+********************HCL*********************************
+
+
+1.What are the features of Java 8?
+2.What are the types of functional interfaces in Java 8?
+3.Which functional interface is the default in java?
+4.What is the default size of HashTable in Java? -> 11 bucket is created by default and load factor is 75%
+->// Creating a HashTable with a specified initial capacity (20) and load factor (0.5)
+        Hashtable<String, Integer> customTable = new Hashtable<>(20, 0.5f);
+
+5.Difference between concurrent hashmap and hashtable. Answer in table
+6.Can you declare interface method as static in java?
+7.Can we make inner class as private in Java?
+8.What is the difference between inner class and outer class in Java. Answer in table.
+9.What is the output of the program:
+	public class ABC {
+public static void main(String[] args) {
+int i = 10;
+System.out.println(" i =  " + i );
+
+i = i++;
+System.out.println(" i =  i++) = " + i );
+
+i = ++i;
+System.out.println(" i =  ++i) = " + i );
+
+i = i++ + ++i;
+System.out.println(" i =  i++ + ++i) = " + i );
+}
+}
+
+10.What are the types of bean scopes in Spring Boot?
+11.What is the lifecycle of bean in Spring Boot. Answer in short.
+12.Which method is called first to create the bean?
+	->In the lifecycle of a Spring bean, the first method called during the creation of the bean is the bean's constructor. The constructor is responsible for creating an instance of the bean, and it is the initial step in the instantiation phase of the bean's lifecycle.
+	->Instantiation:
+The container creates an instance of the bean using either a no-argument constructor (default constructor) or a constructor with arguments if the bean class provides one.
+
+13.Write a singleton class in Java
+14.What is stereotype annotation in SpringBoot?
+15.Suppose I need to connect to multiple database from one project. How to manage transactions for multiple connections in SpringBoot project?
+16.What is circuit breaker in microservices. Answer in short.
+17.What is service discovery?
+18.Given the following arrays:
+
+int[] array01 = {1, 2, 3, 4, 5};
+int[] array02 = {4, 5, 6, 7, 8};
+
+Use Java 8 stream APIs to give a single array with only unique elements. The output for the given input will be { 1, 2, 3, 6, 7, 8 }
+
+-->Solution
+	  public static int[] getExclusiveArray(int[] array1, int[] array2) {
+        // Find elements exclusive to array1
+        int[] exclusiveTo1 = Arrays.stream(array1)
+                                    .filter(value -> Arrays.stream(array2).noneMatch(v -> v == value))
+                                    .toArray();
+
+        // Find elements exclusive to array2
+        int[] exclusiveTo2 = Arrays.stream(array2)
+                                    .filter(value -> Arrays.stream(array1).noneMatch(v -> v == value))
+                                    .toArray();
+
+        // Concatenate the exclusive elements
+        return IntStream.concat(Arrays.stream(exclusiveTo1), Arrays.stream(exclusiveTo2)).toArray();
+    }
+	
+	
+19.Aggregate functions in SQL?
+20.Write SQL query to get 3rd highest salary from employee table?
+
+
+**********************Telsta***************************************
+1.What differenciates collections from streams in Java?
+2.Suppose, a method is throwing NPE in the super class. Can you override it with a method that throws run time exception?
+3.Can we access non-static variable in static context in Java?
+4.Can you access protected members using dot operator in Java?
+5.Is hashmap cloneable and serializable in Java?
+6.What is the differce between concurrent and synchorized collection in Java. Answer in table.
+7.How SpringBoot handles external configuration?
+8.How to bind environment variables to POJO class in Spring Boot.
+9.Authentication and Authorization in SpringBoot?
+10.SpringCloudGateway vs Zuul
+11.What is the major difference between microservice and REST API. Answer in one line.
+12.Why microservices are introduced after RESTful APIs
+13.How to enable CORS in Spring Boot?
+14.Write the logic for fibonacci series in recursive manner
+
+
+
+**************************EPAM***********************
+1.What will be the output of the Java program?
+Set<Employee> empSet = new HashSet<>();
+empSet.add(new Employee(1, "A");
+empSet.add(new Employee(2, "C");
+empSet.add(new Employee(3, "B");
+empSet.add(new Employee(1, "A");
+
+System.out.println(empSet.size());
+
+2.What is the relation between hashCode() and equals() method?
+3.I have list as follows:
+
+List<Item> items = Arrays.asList(
+new Item("apple", 10L),
+new Item("banana", 30L),
+new Item(null, 10L),
+new Item("papaya", null)
+);
+
+->long sumOfQuantities = items.stream()
+                .filter(item -> item.getKey() != null && item.getValue() != null)
+                .mapToLong(Item::getValue)
+                .sum();
+				
+4.What is the argument that filter takes as input?
+And what is the use of predicate?
+->.filter(item -> item.getKey() != null && item.getValue() != null)
+5.Can you provide the implantation of predicate functional interface?
+6.Opps Concept overriding
+7. find pair of given targeted sum from array
+
+
+
+***************************Monjn******************************
+1.What are the design patterns of microservices?
+2.What are the design patterns in Java?
+3.What is the difference between transient and volatile keyword?
+4.What is concurrent hash map?
+5.How would you design a thread-safe singleton class in java?
+6.How to you handle a situation where a Java application you are working on throws NullPointerException at runtime?
+7.How to implement a CustomException in Java
+8.How would you handle memory leaks in Java application?
+9.Profiling tools in Java?
+10.How springboot application works?
+12.What are the main components of SpringBoot?
+13.How to use caching in SpringBoot?
+14.How to use Hazelcast caching in SpringBoot?
+15.How caching improves the performance of the SpringBoot application and what are the things that needs to be considered before enabling caching?
+16.How to handle exceptions in SpringBoot?
+17.What are the spring boot design patterns?				
+
